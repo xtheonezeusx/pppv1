@@ -9,7 +9,6 @@
             {{ $period->name }}
             <a href="{{ route('periodos.index') }}" class="btn btn-sm btn-primary float-right">Volver</a>
         </h1>
-        <p>En cada Período Académico se publica un cronograma de actividades, para rellenar las actividades deberá consultar dicho cronograma que es publicada por la OGEUPS</p>
     </div>
 
     <div class="row">

@@ -18,6 +18,12 @@
           <span>Dashboard</span></a>
       </li>
 
+      <li class="nav-item {{ Request::is('admin/estudiantes*') ? 'active' : '' }}">
+        <a class="nav-link" href="{{ route('estudiantes.index') }}">
+          <i class="fas fa-fw fa-user"></i>
+          <span>Estudiantes</span></a>
+      </li>
+
       <li class="nav-item {{ Request::is('admin/periodos*') ? 'active' : '' }}">
         <a class="nav-link" href="{{ route('periodos.index') }}">
           <i class="fas fa-fw fa-calendar-alt"></i>
